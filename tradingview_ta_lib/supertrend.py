@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-import atr
+from . import atr
 
 
 def hl2(high, low):

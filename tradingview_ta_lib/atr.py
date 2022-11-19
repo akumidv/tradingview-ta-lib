@@ -1,6 +1,6 @@
 import talib
 import pandas as pd
-import rma
+from . import rma
 
 
 def tv_atr(high_ser, low_ser, close_ser, length):
